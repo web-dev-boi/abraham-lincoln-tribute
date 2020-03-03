@@ -15,7 +15,7 @@ header {
   padding: 0.5rem 0;
 }
 
-header > :not(:last-child) {
+header> :not(:last-child) {
   padding: 0 1rem;
 }
 
@@ -60,12 +60,19 @@ figure {
   padding: 1rem 0;
 }
 
-figure > :not(:first-child) {
+figure> :not(:first-child) {
   padding: 0 0.5rem;
 }
 
+@media only screen and (max-width: 927px) {
+  figure {
+    padding-top: 0;
+  }
+}
+
 img {
-  max-width: 100%;
+  width: 100%;
+  max-width: 900px;
 }
 
 a {
