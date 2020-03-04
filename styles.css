@@ -11,42 +11,42 @@ body {
 header {
   background-color: #f0f0f0;
   border-radius: 7px 7px 0 0;
-  margin: 2rem 0.25rem 0;
-  padding: 0.5rem 0;
+  margin: 25px 5px 0;
+  padding: 10px 0 0;
 }
 
-header> :not(:last-child) {
-  padding: 0 1rem;
+header > :not(:last-child) {
+  padding: 0 20px;
 }
 
 header p {
-  margin-top: 0.5rem;
+  margin-top: 10px;
 }
 
 main, aside {
   background-color: #f0f0f0;
-  margin: 0 0.25rem;
-  padding: 0.5rem 1rem;
+  margin: 0 5px;
+  padding: 10px 20px;
 }
 
 footer {
   background-color: #f0f0f0;
   border-radius: 0 0 7px 7px;
-  margin: 0 0.25rem 2rem;
-  padding: 0.5rem 1rem;
+  margin: 0 5px 25px;
+  padding: 10px 20px;
 }
 
 h1 {
   color: #1b262c;
   font-family: 'Roboto';
   font-size: 3rem;
-  margin: 1.5rem 0 0;
+  margin: 30px 0 0;
 }
 
 h2 {
   color: #1b262c;
   font-family: 'Roboto';
-  margin: 3rem 0;
+  margin: 60px 0;
 }
 
 h3, h4, h5, h6 {
@@ -57,16 +57,17 @@ h3, h4, h5, h6 {
 figure {
   background-color: white;
   margin: 0;
-  padding: 1rem 0;
+  padding: 20px 0;
 }
 
-figure> :not(:first-child) {
-  padding: 0 0.5rem;
+figure > :not(:first-child) {
+  padding: 0 10px;
 }
 
 @media only screen and (max-width: 927px) {
   figure {
-    padding-top: 0;
+    background-color: #f0f0f0;
+    padding-bottom: 0;
   }
 }
 
@@ -96,17 +97,17 @@ ul {
 
 li {
   line-height: 2;
-  margin: 2rem 0;
+  margin: 40px 0;
 }
 
 blockquote {
   font-family: 'Open Sans Condensed';
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   font-style: italic;
   line-height: 2;
   margin: 0 auto;
   max-width: 800px;
-  padding: 0 1rem;
+  padding: 0 20px;
   text-align: left;
 }
 
